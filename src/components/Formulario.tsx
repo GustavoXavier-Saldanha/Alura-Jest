@@ -21,13 +21,16 @@ const Formulario = () => {
   return (
     <form onSubmit={adicionarParticipante}>
       <input
+        data-testid="input-add"
         ref={inputRef}
         value={nome}
         onChange={(evento) => setNome(evento.target.value)}
         type="text"
         placeholder="Insira os nomes dos participantes"
       />
-      <button disabled={!nome}>Adicionar</button>
+      <button data-testid="button" disabled={!nome}>
+        Adicionar
+      </button>
       {mensagemDeErro && <p role="alert">{mensagemDeErro}</p>}
     </form>
   );
