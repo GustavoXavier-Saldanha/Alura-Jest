@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`página de configuração deve ser renderizada corretamente 1`] = `
+<div>
+  <form>
+    <div
+      class="grupo-input-btn"
+    >
+      <input
+        data-testid="input-add"
+        placeholder="Insira os nomes dos participantes"
+        type="text"
+        value=""
+      />
+      <button
+        data-testid="button"
+        disabled=""
+      >
+        Adicionar
+      </button>
+    </div>
+    
+  </form>
+  <ul />
+  <footer
+    class="rodape-configuracoes"
+  >
+    <button
+      class="botao"
+      disabled=""
+    >
+      Iniciar brincadeira
+    </button>
+    <img
+      alt="Sacolas de compras"
+      src="/imagens/sacolas.png"
+    />
+  </footer>
+</div>
+`;
