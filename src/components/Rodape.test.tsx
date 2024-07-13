@@ -22,7 +22,7 @@ const mocksorteio = jest.fn();
 
 jest.mock("../state/hook/useSorteador", () => {
   return {
-    useSorteio: () => mocksorteio,
+    useSorteador: () => mocksorteio,
   };
 });
 

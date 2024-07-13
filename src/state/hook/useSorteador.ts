@@ -6,6 +6,9 @@ import { realizarSorteio } from "../helpers/realizarSorteio";
 export const useSorteador = () => {
   const participantes = useListaDeParticipantes();
   const setResultado = useSetRecoilState(resultadoAmigoSecreto);
-  const resultado = realizarSorteio(participantes);
-  setResultado(resultado);
+
+  return () => {
+    const resultado = realizarSorteio(participantes);
+    setResultado(resultado);
+  };
 };
