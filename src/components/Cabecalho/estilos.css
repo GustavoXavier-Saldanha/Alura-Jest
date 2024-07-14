@@ -1,5 +1,3 @@
-/* src/componentes/Cabecalho/estilos.css */
-
 .cabecalho {
   display: flex;
   justify-content: space-around;
@@ -7,7 +5,7 @@
 }
 
 .imagem-logo {
-  background-image: url("/public/imagens/logo.png");
+  background-image: url("/public/images/logo.png");
   width: 351px;
   height: 117px;
 }
@@ -24,7 +22,7 @@
   }
 
   .imagem-logo {
-    background-image: url("/public/imagens/logo-pequeno.png");
+    background-image: url("/public/images/logo-pequeno.png");
     width: 235px;
     height: 199px;
   }

@@ -24,7 +24,7 @@ export const Rodape = () => {
         onClick={iniciar}>
         Iniciar brincadeira
       </button>
-      <img src="/imagens/sacolas.png" alt="Sacolas de compras" />
+      <img  src="/images/sacolas.png" alt="Sacolas de compras" />
     </footer>
   );
 };
